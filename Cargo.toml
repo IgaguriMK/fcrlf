@@ -1,0 +1,18 @@
+[package]
+authors = ["Igaguri <igagurimk@gmail.com>"]
+categories = ["command-line-utilities"]
+description = "Converter for file's CRLF line delimiter."
+edition = "2018"
+keywords = ["text", "crlf", "windows"]
+name = "fcrlf"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/IgaguriMK/fcrlf"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.38"
+clap = "2.33.3"
+glob = "0.3.0"
